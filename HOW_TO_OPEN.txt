@@ -1,0 +1,40 @@
+📚 LibraryOS — How to Open
+==========================
+
+You only need Java. No Maven, no installs, nothing else.
+
+STEP 1 — Open Command Prompt
+  - Press Windows key
+  - Type: cmd
+  - Press Enter
+
+STEP 2 — Go to this folder
+  Type this (replace with wherever you unzipped it):
+
+    cd C:\Users\YourName\Desktop\LibrarySimple
+
+  TIP: You can also open the LibrarySimple folder in File Explorer,
+       click the address bar at the top, type "cmd", press Enter.
+       It will open already in the right folder!
+
+STEP 3 — Start the server
+  Type this exactly and press Enter:
+
+    javac LibraryServer.java && java LibraryServer
+
+  Wait a few seconds. You will see:
+    📚 LibraryOS Server is RUNNING!
+    Open your browser and go to: http://localhost:8080
+
+STEP 4 — Open your browser
+  Go to:  http://localhost:8080
+
+  Login with:
+    Email:    admin@library.com
+    Password: admin123
+
+STEP 5 — To stop the server
+  Go back to the cmd window and press Ctrl + C
+
+
+THAT'S IT! 🎉
